@@ -1,4 +1,4 @@
-const header = () => {
+const Header = () => {
   return (
     <>
       <header>
@@ -22,15 +22,15 @@ const header = () => {
           <p>
             <span>2</span>
             <span>My List</span>
-                  </p>
-                  <button>
-                      <span></span>
-                      <span>Sign in</span>
-                  </button>
+          </p>
+          <button>
+            <span></span>
+            <span>Sign in</span>
+          </button>
         </div>
       </header>
     </>
   );
 };
 
-export default header;
+export default Header;
