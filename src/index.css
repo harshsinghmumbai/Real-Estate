@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Geologica:wght@100;200;300;400;500&family=Jost:wght@100&family=Lora:ital,wght@0,400;0,500;1,400&family=Montserrat:ital,wght@0,100;1,600;1,700&family=Mulish:ital,wght@1,200&family=Oswald:wght@200;300&family=Poppins:ital,wght@0,400;0,600;0,700;1,500;1,600;1,700&family=Roboto+Slab&family=Roboto:wght@100;400;700&family=Rubik:ital,wght@0,300;0,500;1,300;1,400;1,500&family=Source+Code+Pro:wght@300&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
