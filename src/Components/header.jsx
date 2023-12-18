@@ -3,7 +3,10 @@ const Header = () => {
     <>
       <header>
         {/* -------------------logo of Website------------------ */}
-        <img src="" alt="" />
+        <img
+          src="https://funny-daffodil-350bc9.netlify.app/images/logo.png"
+          alt="logo"
+        />
 
         {/* -------------------Navigation------------------ */}
         <nav>
