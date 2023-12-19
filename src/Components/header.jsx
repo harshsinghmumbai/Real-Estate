@@ -3,7 +3,7 @@ import { FaArrowRightFromBracket } from "react-icons/fa6";
 const Header = () => {
   return (
     <>
-      <header className="flex justify-around mt-3">
+      <header className="flex justify-around mt-3 p-1">
         {/* -------------------logo of Website------------------ */}
         <img
           className="w-44 h-11 cursor-pointer"
@@ -13,13 +13,13 @@ const Header = () => {
 
         {/* -------------------Navigation------------------ */}
         <nav className="w-[35rem]">
-          <ul className="flex justify-between font-semibold font-sans text-lg mt-2">
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
-            <li>Blog</li>
-            <li>Pricing</li>
-            <li>Contact</li>
+          <ul className="flex justify-between font-semibold font-sans text-lg mt-2 cursor-pointer ">
+            <li className="hover:text-green-500">Home</li>
+            <li className="hover:text-green-500">About</li>
+            <li className="hover:text-green-500">Service</li>
+            <li className="hover:text-green-500">Blog</li>
+            <li className="hover:text-green-500">Pricing</li>
+            <li className="hover:text-green-500">Contact</li>
           </ul>
         </nav>
 
