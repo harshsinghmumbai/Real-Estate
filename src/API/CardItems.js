@@ -1,0 +1,58 @@
+const CardItems = [
+  {
+    id: 1,
+    image: "https://funny-daffodil-350bc9.netlify.app/images/list/p-1.png",
+    typeofProperty: "For Rent",
+    name: "Red Carpet Real Estate",
+    location: "210 Zirak Road, Canada",
+    prices: 3700,
+    category: "Apartment",
+  },
+  {
+    id: 2,
+    image: "https://funny-daffodil-350bc9.netlify.app/images/list/p-2.png",
+    typeofProperty: "For Sale",
+    name: "Fairmount Properties",
+    location: "5698 Zirak Road, NewYork",
+    prices: 9750,
+    category: "Condos",
+  },
+  {
+    id: 1,
+    image: "https://funny-daffodil-350bc9.netlify.app/images/list/p-7.png",
+    typeofProperty: "For Rent",
+    name: "The Real Estate Corner",
+    location: "5624 Mooker Market, USA",
+    prices: 5860,
+    category: "Offices",
+  },
+  {
+    id: 3,
+    image: "https://funny-daffodil-350bc9.netlify.app/images/list/p-4.png",
+    typeofProperty: "For Sale",
+    name: "Herringbone Realty",
+    location: " 5621 Liverpool, London",
+    prices: 7540,
+    category: "Villas",
+  },
+  {
+    id: 4,
+    image: "https://funny-daffodil-350bc9.netlify.app/images/list/p-5.png",
+    typeofProperty: "For Rent",
+    name: "Brick Lane Realty",
+    location: "210 Montreal Road, Canada",
+    prices: 4800,
+    category: "Commerical",
+  },
+  {
+    id: 5,
+    image: "https://funny-daffodil-350bc9.netlify.app/images/list/p-6.png",
+    typeofProperty: "For Sale",
+    name: "Banyon Tree Realty",
+    location: " 210 Zirak Road, Canada",
+    prices: 2733,
+    category: "Apartment",
+  },
+];
+
+export default CardItems;
