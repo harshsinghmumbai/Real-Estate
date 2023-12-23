@@ -41,11 +41,11 @@ const Property_Section = () => {
               <span className="text-gray-500 mb-2">210 Zirak Road, Canada</span>
             </p>
             <hr />
-            <div className="flex justify-around mt-2">
+            <div className="flex justify-around mt-4">
               <button className="bg-[#27ae60]  p-1 rounded-md font-semibold text-white">
-                $3700<span className="text-black">/sqft</span>
+                $3700 <span className="text-black">/sqft</span>
               </button>
-              <span>Apartment</span>
+              <span className="text-lg font-semibold">Apartment</span>
             </div>
           </div>
         </div>
