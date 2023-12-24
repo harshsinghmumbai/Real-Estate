@@ -8,7 +8,7 @@ const Property_CardItems = ({ CardItems }) => {
       {CardItems.map((curElem) => {
         return (
           <div className=" w-4/5 " key={curElem.id}>
-            <div className="w-[300px] rounded-md border">
+            <div className="w-[300px] rounded-md border shadow-2xl">
               <img
                 src={curElem.image}
                 alt="Laptop"

@@ -19,7 +19,7 @@ const Hero_Section = () => {
               Find new & featured property located in your local city.
             </p>
 
-            <div className="bg-white w-[49.2rem] h-[6rem] mt-6 rounded-lg absolute top-[13.25rem] left-[-9.25rem] flex">
+            <div className="bg-white w-[49.2rem] h-[6rem] mt-6 rounded-lg absolute top-[13.25rem] left-[-9.25rem] flex shadow-2xl">
               <p className="flex flex-col border-r-[1px] p-4 border-black h-24 w-52">
                 <label
                   htmlFor="City/Street"
