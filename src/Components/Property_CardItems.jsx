@@ -7,7 +7,7 @@ const Property_CardItems = ({ CardItems }) => {
     <>
       {CardItems.map((curElem) => {
         return (
-          <div className="p-20" key={curElem.id}>
+          <div className=" w-4/5 " key={curElem.id}>
             <div className="w-[300px] rounded-md border">
               <img
                 src={curElem.image}

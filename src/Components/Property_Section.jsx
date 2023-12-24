@@ -14,7 +14,7 @@ const Property_Section = ({}) => {
           minim veniam
         </p>
       </div>
-      <div className="grid grid-cols-3 grid-rows-2">
+      <div className="grid grid-cols-3 gap-5 grid-rows-2 pl-24 mt-10 pr-14">
         <Property_CardItems CardItems={CardItems} />
       </div>
     </>
