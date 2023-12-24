@@ -1,4 +1,5 @@
 import Award_Section from "./Components/Award_Section";
+import Explore_Section from "./Components/Explore_Section";
 import Feature_Section from "./Components/Feature_Section";
 import Hero_Section from "./Components/Hero_Section";
 import Property_Section from "./Components/Property_Section";
@@ -11,7 +12,8 @@ const App = () => {
       <Hero_Section />
       <Feature_Section />
       <Property_Section />
-      <Award_Section/>
+      <Award_Section />
+      <Explore_Section/>
     </>
   );
 };
