@@ -15,7 +15,7 @@ const Explore_Section = () => {
 
         {/* -----------------------------------All Image------------------------ */}
         <div className=" w-[90%] grid grid-rows-3  gap-7 h-[49rem] grid-cols-3 m-auto mt-6">
-          <div className="Transform  w-[22rem] h-[15rem]  ">
+          <div className=" w-[22rem] h-[15rem]  box-border ">
             <img
               className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-1.png"
@@ -23,7 +23,7 @@ const Explore_Section = () => {
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] ">
+          <div className=" w-[22rem] h-[15rem] box-border ">
             <img
               className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover "
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-2.png"
@@ -31,33 +31,33 @@ const Explore_Section = () => {
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] cursor-pointer ">
+          <div className=" w-[22rem] h-[15rem] box-border ">
             <img
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-3.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] cursor-pointer ">
+          <div className=" w-[22rem] h-[15rem]   box-border ">
             <img
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-4.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] cursor-pointer ">
+          <div className=" w-[22rem] h-[15rem] box-border ">
             <img
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-5.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] cursor-pointer ">
+          <div className=" w-[22rem] h-[15rem] box-border ">
             <img
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-6.png"
               alt=""
             />
