@@ -1,7 +1,7 @@
 const Explore_Section = () => {
   return (
     <>
-      <div className="">
+      <div className="h-[47rem]">
         <p className="flex flex-col justify-center items-center">
           <span className="text-4xl font-bold mt-11 mb-2">
             Explore By Location

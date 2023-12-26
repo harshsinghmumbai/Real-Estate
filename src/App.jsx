@@ -1,3 +1,4 @@
+import Agents_Section from "./Components/Agents_Section";
 import Award_Section from "./Components/Award_Section";
 import Explore_Section from "./Components/Explore_Section";
 import Feature_Section from "./Components/Feature_Section";
@@ -13,7 +14,8 @@ const App = () => {
       <Feature_Section />
       <Property_Section />
       <Award_Section />
-      <Explore_Section/>
+      <Explore_Section />
+      <Agents_Section/>
     </>
   );
 };
