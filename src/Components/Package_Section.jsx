@@ -1,4 +1,5 @@
 import PackageSection_CardItems from "./PackageSection_CardItems";
+import Package_CardItems from "../API/Package_CardItems";
 
 const Package_Section = () => {
   return (
@@ -14,7 +15,7 @@ const Package_Section = () => {
         </p>
 
         <div className="">
-          <PackageSection_CardItems />
+          <PackageSection_CardItems Package_CardItems={Package_CardItems} />
         </div>
       </div>
     </>

@@ -1,9 +1,13 @@
 import { FaCheckCircle } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
 
-const PackageSection_CardItems = () => {
+const PackageSection_CardItems = ({ Package_CardItems }) => {
+    console.log(Package_CardItems)
   return (
-    <>
+      <>
+          {
+              
+          }
       <div className="pt-22 relative mx-auto w-[20rem] rounded-lg bg-white px-10 pb-16 border-2 border-black mt-7 ">
         <span className=" p-1 absolute top-[1rem] left-[2.5rem] text-lg tracking-wide font-bold text-black w-11 h-9 rounded-lg">
           Basic
