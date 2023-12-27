@@ -4,7 +4,7 @@ import Package_CardItems from "../API/Package_CardItems";
 const Package_Section = () => {
   return (
     <>
-      <div className="w-full h-96">
+      <div className="w-full h-[48rem]">
         <p className="flex justify-center items-center flex-col">
           <h1 className="text-5xl font-bold mt-10 mb-5">Select Your Package</h1>
           <p className="text-lg font-semibold w-[32.5rem] text-center">
