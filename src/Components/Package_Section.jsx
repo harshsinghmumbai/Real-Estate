@@ -14,7 +14,7 @@ const Package_Section = () => {
           </p>
         </p>
 
-        <div className="">
+        <div className="grid grid-cols-3 grid-rows-1 pl-32 pr-32">
           <PackageSection_CardItems Package_CardItems={Package_CardItems} />
         </div>
       </div>
