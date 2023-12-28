@@ -32,7 +32,7 @@ const PackageSection_CardItems = ({ Package_CardItems }) => {
                     <FaCheckCircle />
                   </span>
                   <span className="ml-2 text-sm text-gray-500">
-                   {curElem.service_1}
+                    {curElem.service_1}
                   </span>
                 </li>
                 <li className="mb-6 flex items-center">
@@ -40,7 +40,7 @@ const PackageSection_CardItems = ({ Package_CardItems }) => {
                     <FaCheckCircle />
                   </span>
                   <span className="ml-2 text-sm text-gray-500">
-                  {curElem.service_2}
+                    {curElem.service_2}
                   </span>
                 </li>
                 <li className="mb-6 flex items-center">
@@ -48,7 +48,7 @@ const PackageSection_CardItems = ({ Package_CardItems }) => {
                     <FaCheckCircle />
                   </span>
                   <span className="ml-2 text-sm text-gray-500">
-                     {curElem.service_3}
+                    {curElem.service_3}
                   </span>
                 </li>
                 <li className="mb-6 flex items-center">
@@ -56,7 +56,7 @@ const PackageSection_CardItems = ({ Package_CardItems }) => {
                     <MdCancel />
                   </span>
                   <span className="ml-2 text-sm text-gray-500">
-                     {curElem.service_4}
+                    {curElem.service_4}
                   </span>
                 </li>
                 <li className="mb-3 flex items-center">
@@ -64,7 +64,7 @@ const PackageSection_CardItems = ({ Package_CardItems }) => {
                     <MdCancel />
                   </span>
                   <span className="ml-2 text-sm text-gray-500">
-                     {curElem.service_5}
+                    {curElem.service_5}
                   </span>
                 </li>
               </ul>
