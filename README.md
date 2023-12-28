@@ -1,8 +1,23 @@
-# React + Vite
+# React + Vite + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have completed a Real Estate 🏘️ App using React ⚛️👋 In this App, I have included all that I have learned 📚 in my journey so far 🚶‍♂️💭.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+⭐⭐ Feature of my Project:-
+1. 🚀 Production build React App.
+2. 🛠️ Created Manul API Function.
+3. 📦 Created Grid Container for CardItems.
+
+⭐⭐ Technologies used in this project:-
+1. 🍦 Vanilla CSS & HTML.
+2. 🌬️ TailwindCSS & TailwindUI Components.
+3. 🤖 Vanilla JavaScript.
+4. ⚛️ React Library.
+
+
+
+Here is the App link:- https://realestatebyharsh.netlify.app/
+Here is the Github link:-https://github.com/harshsinghmumbai/Real-Estate
+
+ 
