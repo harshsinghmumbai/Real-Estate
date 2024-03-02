@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className="flex justify-around p-3 shadow-2xl bg-gray-500 ">
+      <header className="flex justify-around p-3 shadow-2xl bg-white fixed top-0 left-0 w-screen z-10 ">
         {/* -------------------logo of Website------------------ */}
         <img
           className="w-44 h-11 cursor-pointer"
@@ -28,7 +28,7 @@ const Header = () => {
               <NavLink to={"pricing"}>Pricing</NavLink>
             </li>
             <li className="hover:text-green-500">
-              <NavLink to={"employe"}>Employe</NavLink>e
+              <NavLink to={"employee"}>Employe</NavLink>e
             </li>
             <li className="hover:text-green-500">
               <NavLink to={"package"}>Package</NavLink>

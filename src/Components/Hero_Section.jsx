@@ -1,6 +1,11 @@
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import Feature_Section from "./Feature_Section";
 import Property_Section from "./Property_Section";
+import Award_Section from "./Award_Section";
+import Explore_Section from "./Explore_Section";
+import Agents_Section from "./Agents_Section";
+import Package_Section from "./Package_Section";
+import Question_Component from "./Question_Component";
 
 const Hero_Section = () => {
   return (
@@ -81,7 +86,11 @@ const Hero_Section = () => {
       </div>
       <Feature_Section />
       <Property_Section />
-  
+      <Award_Section />
+      <Explore_Section />
+      <Agents_Section/>
+      <Package_Section />
+      <Question_Component/>
     </>
   );
 };

@@ -4,7 +4,7 @@ import Agents_CardItems from "../API/Agents_CardItems";
 const Agents_Section = () => {
   return (
     <>
-      <div className="bg-[#f7f9fc] w-full h-[70rem]">
+      <div className="bg-[#f7f9fc] w-full h-[70rem] mt-10">
         <p className="flex flex-col justify-center items-center">
           <h1 className="text-4xl font-[650] inline-block mt-7 mb-2 tracking-wide">
             Our Featured Agents

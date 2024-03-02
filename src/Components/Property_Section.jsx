@@ -4,7 +4,7 @@ import CardItems from "../API/CardItems";
 const Property_Section = ({}) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center mt-7">
         <h1 className="text-4xl font-bold tracking-wide inline-block mt-10 mb-2">
           Recent Property Listed
         </h1>

@@ -1,7 +1,7 @@
 const Feature_Section = () => {
   return (
     <>
-      <div className="w-full bg-[#f7f9fc] relative h-[30rem]">
+      <div className="w-full bg-[#f7f9fc] relative h-[30rem] mt-5">
         <p className="absolute top-[4rem] left-[26.75rem]">
           <span className="text-4xl font-bold tracking-normal">
             Featured Property Types
