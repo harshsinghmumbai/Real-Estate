@@ -2,9 +2,35 @@ import { FaArrowRightFromBracket } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  const list = [
+    {
+      titile: "Home",
+      tos: "/",
+    },
+    {
+      titile: "Service",
+      tos: "service",
+    },
+    {
+      titile: "Blog",
+      tos: "blog",
+    },
+    {
+      titile: "Pricing",
+      tos: "pricing",
+    },
+    {
+      titile: "Employee",
+      tos: "employee",
+    },
+    {
+      titile: "Package",
+      tos: "package",
+    },
+  ];
   return (
     <>
-      <header className="flex justify-around p-3 shadow-2xl bg-white fixed top-0 left-0 w-screen z-10 ">
+      <header className="flex justify-around p-3 shadow-2xl w-screen z-10 bg-white fixed top-0 left-0  ">
         {/* -------------------logo of Website------------------ */}
         <img
           className="w-44 h-11 cursor-pointer"
@@ -15,10 +41,18 @@ const Header = () => {
         {/* -------------------Navigation------------------ */}
         <nav className="w-[35rem]">
           <ul className="flex justify-evenly font-semibold font-sans text-lg mt-2 cursor-pointer ">
-            <li className="hover:text-green-500">
-              <NavLink to={"/"}>Home</NavLink>
-            </li>
-            <li className="hover:text-green-500">
+            {list.map((elem, i) => {
+              const { titile, tos } = elem;
+              return (
+                <li key={i} className="hover:text-green-500">
+                  <NavLink to={tos}>{titile}</NavLink>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+
+        {/* <li className="hover:text-green-500">
               <NavLink to={"service"}>Service</NavLink>
             </li>
             <li className="hover:text-green-500">
@@ -32,10 +66,7 @@ const Header = () => {
             </li>
             <li className="hover:text-green-500">
               <NavLink to={"package"}>Package</NavLink>
-            </li>
-          </ul>
-        </nav>
-
+            </li> */}
         {/* ---------------------------Signin Section---------------------------- */}
         <div className="flex">
           <div className="flex mr-2 mt-2 justify-center">

@@ -1,7 +1,7 @@
 import Property_CardItems from "./Property_CardItems";
 import CardItems from "../API/CardItems";
 
-const Property_Section = ({}) => {
+const Property_Section = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center mt-7">
