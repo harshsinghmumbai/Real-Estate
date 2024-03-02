@@ -1,4 +1,6 @@
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import Feature_Section from "./Feature_Section";
+import Property_Section from "./Property_Section";
 
 const Hero_Section = () => {
   return (
@@ -77,6 +79,9 @@ const Hero_Section = () => {
           </div>
         </div>
       </div>
+      <Feature_Section />
+      <Property_Section />
+  
     </>
   );
 };

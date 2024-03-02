@@ -1,9 +1,10 @@
 import { FaArrowRightFromBracket } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
-      <header className="flex justify-around mt-3 p-1">
+      <header className="flex justify-around p-3 shadow-2xl bg-gray-500 ">
         {/* -------------------logo of Website------------------ */}
         <img
           className="w-44 h-11 cursor-pointer"
@@ -13,13 +14,25 @@ const Header = () => {
 
         {/* -------------------Navigation------------------ */}
         <nav className="w-[35rem]">
-          <ul className="flex justify-between font-semibold font-sans text-lg mt-2 cursor-pointer ">
-            <li className="hover:text-green-500">Home</li>
-            <li className="hover:text-green-500">About</li>
-            <li className="hover:text-green-500">Service</li>
-            <li className="hover:text-green-500">Blog</li>
-            <li className="hover:text-green-500">Pricing</li>
-            <li className="hover:text-green-500">Contact</li>
+          <ul className="flex justify-evenly font-semibold font-sans text-lg mt-2 cursor-pointer ">
+            <li className="hover:text-green-500">
+              <NavLink to={"/"}>Home</NavLink>
+            </li>
+            <li className="hover:text-green-500">
+              <NavLink to={"service"}>Service</NavLink>
+            </li>
+            <li className="hover:text-green-500">
+              <NavLink to={"blog"}>Blog</NavLink>
+            </li>
+            <li className="hover:text-green-500">
+              <NavLink to={"pricing"}>Pricing</NavLink>
+            </li>
+            <li className="hover:text-green-500">
+              <NavLink to={"employe"}>Employe</NavLink>e
+            </li>
+            <li className="hover:text-green-500">
+              <NavLink to={"package"}>Package</NavLink>
+            </li>
           </ul>
         </nav>
 
