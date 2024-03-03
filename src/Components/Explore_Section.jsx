@@ -15,49 +15,49 @@ const Explore_Section = () => {
 
         {/* -----------------------------------All Image------------------------ */}
         <div className=" w-[90%] grid grid-rows-3  gap-7 h-[49rem] grid-cols-3 m-auto mt-6">
-          <div className=" w-[22rem] h-[15rem]  box-border ">
+          <div className=" w-[22rem] h-[15rem] overflow-hidden rounded-xl ">
             <img
-              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
+              className="w-full h-full object-cover cursor-pointer rounded-xl hover:scale-125 transition-transform "
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-1.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] box-border ">
+          <div className=" w-[22rem] h-[15rem] overflow-hidden rounded-lg ">
             <img
-              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover "
+              className="w-full h-full object-cover rounded-lg cursor-pointer transition-transform hover:scale-125 "
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-2.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] box-border ">
+          <div className=" w-[22rem] h-[15rem] overflow-hidden rounded-lg  ">
             <img
-              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
+              className="w-full h-full object-contain rounded-lg cursor-pointer hover:scale-125 transition-transform"
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-3.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem]   box-border ">
+          <div className=" w-[22rem] h-[15rem] overflow-hidden rounded-lg  ">
             <img
-              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
+              className="w-full h-full object-cover rounded-lg cursor-pointer hover:scale-125 transition-transform "
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-4.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] box-border ">
+          <div className=" w-[22rem] h-[15rem] overflow-hidden rounded-lg ">
             <img
-              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
+              className="w-full h-full object-cover rounded-lg cursor-pointer hover:scale-125 transition-transform "
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-5.png"
               alt=""
             />
           </div>
 
-          <div className=" w-[22rem] h-[15rem] box-border ">
+          <div className=" w-[22rem] h-[15rem] overflow-hidden rounded-lg ">
             <img
-              className="w-full h-full object-contain rounded-lg cursor-pointer hover:object-cover"
+              className="w-full h-full object-cover rounded-lg cursor-pointer hover:scale-125 transition-transform "
               src="https://funny-daffodil-350bc9.netlify.app/images/location/city-6.png"
               alt=""
             />
